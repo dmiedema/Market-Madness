@@ -1,0 +1,1088 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54285FB719DE50E10091BBFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285FB619DE50E10091BBFF /* main.m */; };
+		54285FBA19DE50E10091BBFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285FB919DE50E10091BBFF /* AppDelegate.m */; };
+		54285FBD19DE50E10091BBFF /* Market_Madness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54285FBB19DE50E10091BBFF /* Market_Madness.xcdatamodeld */; };
+		54285FC019DE50E10091BBFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285FBF19DE50E10091BBFF /* ViewController.m */; };
+		54285FC319DE50E10091BBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54285FC119DE50E10091BBFF /* Main.storyboard */; };
+		54285FC519DE50E10091BBFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54285FC419DE50E10091BBFF /* Images.xcassets */; };
+		54285FC819DE50E10091BBFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54285FC619DE50E10091BBFF /* LaunchScreen.xib */; };
+		54285FD419DE50E10091BBFF /* Market_MadnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285FD319DE50E10091BBFF /* Market_MadnessTests.m */; };
+		54285FE719DE51250091BBFF /* DMMMarketMadnessFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 54285FE619DE51250091BBFF /* DMMMarketMadnessFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54285FF319DE51250091BBFF /* DMMMarketMadnessFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54285FF219DE51250091BBFF /* DMMMarketMadnessFrameworkTests.m */; };
+		54285FF619DE51250091BBFF /* DMMMarketMadnessFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54285FE219DE51250091BBFF /* DMMMarketMadnessFramework.framework */; };
+		54285FF719DE51250091BBFF /* DMMMarketMadnessFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54285FE219DE51250091BBFF /* DMMMarketMadnessFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5428600719DE52D00091BBFF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5428600619DE52D00091BBFF /* NotificationCenter.framework */; };
+		5428600D19DE52D00091BBFF /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428600C19DE52D00091BBFF /* TodayViewController.m */; };
+		5428600F19DE52D00091BBFF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5428600E19DE52D00091BBFF /* MainInterface.storyboard */; };
+		5428601219DE52D00091BBFF /* Stocks.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5428600519DE52D00091BBFF /* Stocks.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5428601B19DE52FF0091BBFF /* DMMMarketMadnessFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54285FE219DE51250091BBFF /* DMMMarketMadnessFramework.framework */; };
+		55F9481AB680A28D9DDE0E48 /* libPods-DMMMarketMadnessFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B23A828A3C7629C07923F1 /* libPods-DMMMarketMadnessFramework.a */; };
+		93ABCBACD19B182BB88D5BFC /* libPods-Market MadnessTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10ED31F63D96292D85310F5E /* libPods-Market MadnessTests.a */; };
+		AE06495B1145479566586506 /* libPods-Market Madness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5FB1FB37DDA98B7903F001 /* libPods-Market Madness.a */; };
+		EF87F896C211AADA65120F2F /* libPods-DMMMarketMadnessFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9392F798600C1141669D08 /* libPods-DMMMarketMadnessFrameworkTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54285FCE19DE50E10091BBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285FA919DE50E10091BBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54285FB019DE50E10091BBFF;
+			remoteInfo = "Market Madness";
+		};
+		54285FED19DE51250091BBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285FA919DE50E10091BBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54285FB019DE50E10091BBFF;
+			remoteInfo = "Market Madness";
+		};
+		54285FF419DE51250091BBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285FA919DE50E10091BBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54285FE119DE51250091BBFF;
+			remoteInfo = DMMMarketMadnessFramework;
+		};
+		54285FF819DE51250091BBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285FA919DE50E10091BBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54285FE119DE51250091BBFF;
+			remoteInfo = DMMMarketMadnessFramework;
+		};
+		5428601019DE52D00091BBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285FA919DE50E10091BBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5428600419DE52D00091BBFF;
+			remoteInfo = Stocks;
+		};
+		5428601319DE52D00091BBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54285FA919DE50E10091BBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5428600419DE52D00091BBFF;
+			remoteInfo = Stocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54285FFD19DE51250091BBFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				54285FF719DE51250091BBFF /* DMMMarketMadnessFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428601819DE52D00091BBFF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5428601219DE52D00091BBFF /* Stocks.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10ED31F63D96292D85310F5E /* libPods-Market MadnessTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Market MadnessTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5FB1FB37DDA98B7903F001 /* libPods-Market Madness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Market Madness.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9392F798600C1141669D08 /* libPods-DMMMarketMadnessFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMMMarketMadnessFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285FB119DE50E10091BBFF /* Market Madness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Market Madness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285FB519DE50E10091BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285FB619DE50E10091BBFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54285FB819DE50E10091BBFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54285FB919DE50E10091BBFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54285FBC19DE50E10091BBFF /* Market_Madness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Market_Madness.xcdatamodel; sourceTree = "<group>"; };
+		54285FBE19DE50E10091BBFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54285FBF19DE50E10091BBFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54285FC219DE50E10091BBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54285FC419DE50E10091BBFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54285FC719DE50E10091BBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		54285FCD19DE50E10091BBFF /* Market MadnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Market MadnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285FD219DE50E10091BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285FD319DE50E10091BBFF /* Market_MadnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Market_MadnessTests.m; sourceTree = "<group>"; };
+		54285FE219DE51250091BBFF /* DMMMarketMadnessFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMMMarketMadnessFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285FE519DE51250091BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285FE619DE51250091BBFF /* DMMMarketMadnessFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMMMarketMadnessFramework.h; sourceTree = "<group>"; };
+		54285FEC19DE51250091BBFF /* DMMMarketMadnessFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMMMarketMadnessFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54285FF119DE51250091BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285FF219DE51250091BBFF /* DMMMarketMadnessFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMMarketMadnessFrameworkTests.m; sourceTree = "<group>"; };
+		5428600519DE52D00091BBFF /* Stocks.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stocks.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5428600619DE52D00091BBFF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		5428600A19DE52D00091BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5428600B19DE52D00091BBFF /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		5428600C19DE52D00091BBFF /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		5428600E19DE52D00091BBFF /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		5428601919DE52FC0091BBFF /* libPods-Market Madness.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Market Madness.a"; path = "Pods/build/Debug-iphoneos/libPods-Market Madness.a"; sourceTree = "<group>"; };
+		59996D594CF30AB54716EF54 /* Pods-Market Madness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market Madness.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Market Madness/Pods-Market Madness.debug.xcconfig"; sourceTree = "<group>"; };
+		827B5D02433678AB676F655F /* Pods-Market MadnessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market MadnessTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Market MadnessTests/Pods-Market MadnessTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B44018873FFC02CDF380868 /* Pods-Market Madness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market Madness.release.xcconfig"; path = "Pods/Target Support Files/Pods-Market Madness/Pods-Market Madness.release.xcconfig"; sourceTree = "<group>"; };
+		A3D5F38E8AEF5AA0D95F7B8F /* Pods-DMMMarketMadnessFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMMarketMadnessFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMMMarketMadnessFrameworkTests/Pods-DMMMarketMadnessFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFE8AF60E0680C8502E0AEE7 /* Pods-Market MadnessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market MadnessTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Market MadnessTests/Pods-Market MadnessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C15D826C53893563EFA752C6 /* Pods-DMMMarketMadnessFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMMarketMadnessFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMMMarketMadnessFramework/Pods-DMMMarketMadnessFramework.release.xcconfig"; sourceTree = "<group>"; };
+		D9B23A828A3C7629C07923F1 /* libPods-DMMMarketMadnessFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMMMarketMadnessFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2420703E903B77D6654D153 /* Pods-DMMMarketMadnessFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMMarketMadnessFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMMarketMadnessFrameworkTests/Pods-DMMMarketMadnessFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E351B498C3C7CAAF94CBDEA3 /* Pods-DMMMarketMadnessFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMMarketMadnessFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMMarketMadnessFramework/Pods-DMMMarketMadnessFramework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54285FAE19DE50E10091BBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285FF619DE51250091BBFF /* DMMMarketMadnessFramework.framework in Frameworks */,
+				AE06495B1145479566586506 /* libPods-Market Madness.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FCA19DE50E10091BBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ABCBACD19B182BB88D5BFC /* libPods-Market MadnessTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FDE19DE51250091BBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9481AB680A28D9DDE0E48 /* libPods-DMMMarketMadnessFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FE919DE51250091BBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF87F896C211AADA65120F2F /* libPods-DMMMarketMadnessFrameworkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428600219DE52D00091BBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5428601B19DE52FF0091BBFF /* DMMMarketMadnessFramework.framework in Frameworks */,
+				5428600719DE52D00091BBFF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E35318F388314A5B890781D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E351B498C3C7CAAF94CBDEA3 /* Pods-DMMMarketMadnessFramework.debug.xcconfig */,
+				C15D826C53893563EFA752C6 /* Pods-DMMMarketMadnessFramework.release.xcconfig */,
+				E2420703E903B77D6654D153 /* Pods-DMMMarketMadnessFrameworkTests.debug.xcconfig */,
+				A3D5F38E8AEF5AA0D95F7B8F /* Pods-DMMMarketMadnessFrameworkTests.release.xcconfig */,
+				59996D594CF30AB54716EF54 /* Pods-Market Madness.debug.xcconfig */,
+				9B44018873FFC02CDF380868 /* Pods-Market Madness.release.xcconfig */,
+				BFE8AF60E0680C8502E0AEE7 /* Pods-Market MadnessTests.debug.xcconfig */,
+				827B5D02433678AB676F655F /* Pods-Market MadnessTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54285FA819DE50E10091BBFF = {
+			isa = PBXGroup;
+			children = (
+				54285FB319DE50E10091BBFF /* Market Madness */,
+				54285FD019DE50E10091BBFF /* Market MadnessTests */,
+				54285FE319DE51250091BBFF /* DMMMarketMadnessFramework */,
+				54285FEF19DE51250091BBFF /* DMMMarketMadnessFrameworkTests */,
+				5428600819DE52D00091BBFF /* Stocks */,
+				54285FB219DE50E10091BBFF /* Products */,
+				2E35318F388314A5B890781D /* Pods */,
+				EEC33103E797EC0FCFDAB5FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54285FB219DE50E10091BBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54285FB119DE50E10091BBFF /* Market Madness.app */,
+				54285FCD19DE50E10091BBFF /* Market MadnessTests.xctest */,
+				54285FE219DE51250091BBFF /* DMMMarketMadnessFramework.framework */,
+				54285FEC19DE51250091BBFF /* DMMMarketMadnessFrameworkTests.xctest */,
+				5428600519DE52D00091BBFF /* Stocks.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54285FB319DE50E10091BBFF /* Market Madness */ = {
+			isa = PBXGroup;
+			children = (
+				54285FB819DE50E10091BBFF /* AppDelegate.h */,
+				54285FB919DE50E10091BBFF /* AppDelegate.m */,
+				54285FBE19DE50E10091BBFF /* ViewController.h */,
+				54285FBF19DE50E10091BBFF /* ViewController.m */,
+				54285FC119DE50E10091BBFF /* Main.storyboard */,
+				54285FC419DE50E10091BBFF /* Images.xcassets */,
+				54285FC619DE50E10091BBFF /* LaunchScreen.xib */,
+				54285FBB19DE50E10091BBFF /* Market_Madness.xcdatamodeld */,
+				54285FB419DE50E10091BBFF /* Supporting Files */,
+			);
+			path = "Market Madness";
+			sourceTree = "<group>";
+		};
+		54285FB419DE50E10091BBFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54285FB519DE50E10091BBFF /* Info.plist */,
+				54285FB619DE50E10091BBFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54285FD019DE50E10091BBFF /* Market MadnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				54285FD319DE50E10091BBFF /* Market_MadnessTests.m */,
+				54285FD119DE50E10091BBFF /* Supporting Files */,
+			);
+			path = "Market MadnessTests";
+			sourceTree = "<group>";
+		};
+		54285FD119DE50E10091BBFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54285FD219DE50E10091BBFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54285FE319DE51250091BBFF /* DMMMarketMadnessFramework */ = {
+			isa = PBXGroup;
+			children = (
+				54285FE619DE51250091BBFF /* DMMMarketMadnessFramework.h */,
+				54285FE419DE51250091BBFF /* Supporting Files */,
+			);
+			path = DMMMarketMadnessFramework;
+			sourceTree = "<group>";
+		};
+		54285FE419DE51250091BBFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54285FE519DE51250091BBFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54285FEF19DE51250091BBFF /* DMMMarketMadnessFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				54285FF219DE51250091BBFF /* DMMMarketMadnessFrameworkTests.m */,
+				54285FF019DE51250091BBFF /* Supporting Files */,
+			);
+			path = DMMMarketMadnessFrameworkTests;
+			sourceTree = "<group>";
+		};
+		54285FF019DE51250091BBFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54285FF119DE51250091BBFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5428600819DE52D00091BBFF /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				5428600B19DE52D00091BBFF /* TodayViewController.h */,
+				5428600C19DE52D00091BBFF /* TodayViewController.m */,
+				5428600E19DE52D00091BBFF /* MainInterface.storyboard */,
+				5428600919DE52D00091BBFF /* Supporting Files */,
+			);
+			path = Stocks;
+			sourceTree = "<group>";
+		};
+		5428600919DE52D00091BBFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5428600A19DE52D00091BBFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEC33103E797EC0FCFDAB5FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5428601919DE52FC0091BBFF /* libPods-Market Madness.a */,
+				D9B23A828A3C7629C07923F1 /* libPods-DMMMarketMadnessFramework.a */,
+				3D9392F798600C1141669D08 /* libPods-DMMMarketMadnessFrameworkTests.a */,
+				3B5FB1FB37DDA98B7903F001 /* libPods-Market Madness.a */,
+				10ED31F63D96292D85310F5E /* libPods-Market MadnessTests.a */,
+				5428600619DE52D00091BBFF /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54285FDF19DE51250091BBFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285FE719DE51250091BBFF /* DMMMarketMadnessFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54285FB019DE50E10091BBFF /* Market Madness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54285FD719DE50E10091BBFF /* Build configuration list for PBXNativeTarget "Market Madness" */;
+			buildPhases = (
+				4F5672990A91AF2B877E401A /* Check Pods Manifest.lock */,
+				54285FAD19DE50E10091BBFF /* Sources */,
+				54285FAE19DE50E10091BBFF /* Frameworks */,
+				54285FAF19DE50E10091BBFF /* Resources */,
+				54285FFD19DE51250091BBFF /* Embed Frameworks */,
+				7C6268DDB7C3277A5B9C6C02 /* Copy Pods Resources */,
+				5428601819DE52D00091BBFF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54285FF519DE51250091BBFF /* PBXTargetDependency */,
+				54285FF919DE51250091BBFF /* PBXTargetDependency */,
+				5428601119DE52D00091BBFF /* PBXTargetDependency */,
+				5428601419DE52D00091BBFF /* PBXTargetDependency */,
+			);
+			name = "Market Madness";
+			productName = "Market Madness";
+			productReference = 54285FB119DE50E10091BBFF /* Market Madness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54285FCC19DE50E10091BBFF /* Market MadnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54285FDA19DE50E10091BBFF /* Build configuration list for PBXNativeTarget "Market MadnessTests" */;
+			buildPhases = (
+				5A12ECC58929005DA5270330 /* Check Pods Manifest.lock */,
+				54285FC919DE50E10091BBFF /* Sources */,
+				54285FCA19DE50E10091BBFF /* Frameworks */,
+				54285FCB19DE50E10091BBFF /* Resources */,
+				D22C8FEA31D247D422EFE70F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54285FCF19DE50E10091BBFF /* PBXTargetDependency */,
+			);
+			name = "Market MadnessTests";
+			productName = "Market MadnessTests";
+			productReference = 54285FCD19DE50E10091BBFF /* Market MadnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54285FE119DE51250091BBFF /* DMMMarketMadnessFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54285FFA19DE51250091BBFF /* Build configuration list for PBXNativeTarget "DMMMarketMadnessFramework" */;
+			buildPhases = (
+				51B20958937F6AEF53A3212B /* Check Pods Manifest.lock */,
+				54285FDD19DE51250091BBFF /* Sources */,
+				54285FDE19DE51250091BBFF /* Frameworks */,
+				54285FDF19DE51250091BBFF /* Headers */,
+				54285FE019DE51250091BBFF /* Resources */,
+				BAB1332A94BBA24C529B1DFE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMMMarketMadnessFramework;
+			productName = DMMMarketMadnessFramework;
+			productReference = 54285FE219DE51250091BBFF /* DMMMarketMadnessFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54285FEB19DE51250091BBFF /* DMMMarketMadnessFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54285FFE19DE51250091BBFF /* Build configuration list for PBXNativeTarget "DMMMarketMadnessFrameworkTests" */;
+			buildPhases = (
+				D18AE9D7373473B418A47960 /* Check Pods Manifest.lock */,
+				54285FE819DE51250091BBFF /* Sources */,
+				54285FE919DE51250091BBFF /* Frameworks */,
+				54285FEA19DE51250091BBFF /* Resources */,
+				E056B6B39F8C2C992C112EBC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54285FEE19DE51250091BBFF /* PBXTargetDependency */,
+			);
+			name = DMMMarketMadnessFrameworkTests;
+			productName = DMMMarketMadnessFrameworkTests;
+			productReference = 54285FEC19DE51250091BBFF /* DMMMarketMadnessFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5428600419DE52D00091BBFF /* Stocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5428601719DE52D00091BBFF /* Build configuration list for PBXNativeTarget "Stocks" */;
+			buildPhases = (
+				5428600119DE52D00091BBFF /* Sources */,
+				5428600219DE52D00091BBFF /* Frameworks */,
+				5428600319DE52D00091BBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stocks;
+			productName = Stocks;
+			productReference = 5428600519DE52D00091BBFF /* Stocks.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54285FA919DE50E10091BBFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = dmiedema;
+				TargetAttributes = {
+					54285FB019DE50E10091BBFF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					54285FCC19DE50E10091BBFF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 54285FB019DE50E10091BBFF;
+					};
+					54285FE119DE51250091BBFF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					54285FEB19DE51250091BBFF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 54285FB019DE50E10091BBFF;
+					};
+					5428600419DE52D00091BBFF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 54285FAC19DE50E10091BBFF /* Build configuration list for PBXProject "Market Madness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54285FA819DE50E10091BBFF;
+			productRefGroup = 54285FB219DE50E10091BBFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54285FB019DE50E10091BBFF /* Market Madness */,
+				54285FCC19DE50E10091BBFF /* Market MadnessTests */,
+				54285FE119DE51250091BBFF /* DMMMarketMadnessFramework */,
+				54285FEB19DE51250091BBFF /* DMMMarketMadnessFrameworkTests */,
+				5428600419DE52D00091BBFF /* Stocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54285FAF19DE50E10091BBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285FC319DE50E10091BBFF /* Main.storyboard in Resources */,
+				54285FC819DE50E10091BBFF /* LaunchScreen.xib in Resources */,
+				54285FC519DE50E10091BBFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FCB19DE50E10091BBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FE019DE51250091BBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FEA19DE51250091BBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428600319DE52D00091BBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5428600F19DE52D00091BBFF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F5672990A91AF2B877E401A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51B20958937F6AEF53A3212B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A12ECC58929005DA5270330 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C6268DDB7C3277A5B9C6C02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Market Madness/Pods-Market Madness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB1332A94BBA24C529B1DFE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMMMarketMadnessFramework/Pods-DMMMarketMadnessFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18AE9D7373473B418A47960 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D22C8FEA31D247D422EFE70F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Market MadnessTests/Pods-Market MadnessTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E056B6B39F8C2C992C112EBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMMMarketMadnessFrameworkTests/Pods-DMMMarketMadnessFrameworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54285FAD19DE50E10091BBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285FBA19DE50E10091BBFF /* AppDelegate.m in Sources */,
+				54285FB719DE50E10091BBFF /* main.m in Sources */,
+				54285FC019DE50E10091BBFF /* ViewController.m in Sources */,
+				54285FBD19DE50E10091BBFF /* Market_Madness.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FC919DE50E10091BBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285FD419DE50E10091BBFF /* Market_MadnessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FDD19DE51250091BBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54285FE819DE51250091BBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54285FF319DE51250091BBFF /* DMMMarketMadnessFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428600119DE52D00091BBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5428600D19DE52D00091BBFF /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54285FCF19DE50E10091BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54285FB019DE50E10091BBFF /* Market Madness */;
+			targetProxy = 54285FCE19DE50E10091BBFF /* PBXContainerItemProxy */;
+		};
+		54285FEE19DE51250091BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54285FB019DE50E10091BBFF /* Market Madness */;
+			targetProxy = 54285FED19DE51250091BBFF /* PBXContainerItemProxy */;
+		};
+		54285FF519DE51250091BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54285FE119DE51250091BBFF /* DMMMarketMadnessFramework */;
+			targetProxy = 54285FF419DE51250091BBFF /* PBXContainerItemProxy */;
+		};
+		54285FF919DE51250091BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54285FE119DE51250091BBFF /* DMMMarketMadnessFramework */;
+			targetProxy = 54285FF819DE51250091BBFF /* PBXContainerItemProxy */;
+		};
+		5428601119DE52D00091BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5428600419DE52D00091BBFF /* Stocks */;
+			targetProxy = 5428601019DE52D00091BBFF /* PBXContainerItemProxy */;
+		};
+		5428601419DE52D00091BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5428600419DE52D00091BBFF /* Stocks */;
+			targetProxy = 5428601319DE52D00091BBFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54285FC119DE50E10091BBFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54285FC219DE50E10091BBFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54285FC619DE50E10091BBFF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54285FC719DE50E10091BBFF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54285FD519DE50E10091BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54285FD619DE50E10091BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54285FD819DE50E10091BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59996D594CF30AB54716EF54 /* Pods-Market Madness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Market Madness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54285FD919DE50E10091BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B44018873FFC02CDF380868 /* Pods-Market Madness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Market Madness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54285FDB19DE50E10091BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE8AF60E0680C8502E0AEE7 /* Pods-Market MadnessTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Market MadnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Market Madness.app/Market Madness";
+			};
+			name = Debug;
+		};
+		54285FDC19DE50E10091BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827B5D02433678AB676F655F /* Pods-Market MadnessTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Market MadnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Market Madness.app/Market Madness";
+			};
+			name = Release;
+		};
+		54285FFB19DE51250091BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E351B498C3C7CAAF94CBDEA3 /* Pods-DMMMarketMadnessFramework.debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMMMarketMadnessFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54285FFC19DE51250091BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15D826C53893563EFA752C6 /* Pods-DMMMarketMadnessFramework.release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DMMMarketMadnessFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54285FFF19DE51250091BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2420703E903B77D6654D153 /* Pods-DMMMarketMadnessFrameworkTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMMMarketMadnessFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Market Madness.app/Market Madness";
+			};
+			name = Debug;
+		};
+		5428600019DE51250091BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D5F38E8AEF5AA0D95F7B8F /* Pods-DMMMarketMadnessFrameworkTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMMMarketMadnessFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Market Madness.app/Market Madness";
+			};
+			name = Release;
+		};
+		5428601519DE52D00091BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E351B498C3C7CAAF94CBDEA3 /* Pods-DMMMarketMadnessFramework.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Stocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5428601619DE52D00091BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15D826C53893563EFA752C6 /* Pods-DMMMarketMadnessFramework.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Stocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54285FAC19DE50E10091BBFF /* Build configuration list for PBXProject "Market Madness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285FD519DE50E10091BBFF /* Debug */,
+				54285FD619DE50E10091BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54285FD719DE50E10091BBFF /* Build configuration list for PBXNativeTarget "Market Madness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285FD819DE50E10091BBFF /* Debug */,
+				54285FD919DE50E10091BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54285FDA19DE50E10091BBFF /* Build configuration list for PBXNativeTarget "Market MadnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285FDB19DE50E10091BBFF /* Debug */,
+				54285FDC19DE50E10091BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54285FFA19DE51250091BBFF /* Build configuration list for PBXNativeTarget "DMMMarketMadnessFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285FFB19DE51250091BBFF /* Debug */,
+				54285FFC19DE51250091BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54285FFE19DE51250091BBFF /* Build configuration list for PBXNativeTarget "DMMMarketMadnessFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54285FFF19DE51250091BBFF /* Debug */,
+				5428600019DE51250091BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5428601719DE52D00091BBFF /* Build configuration list for PBXNativeTarget "Stocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5428601519DE52D00091BBFF /* Debug */,
+				5428601619DE52D00091BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54285FBB19DE50E10091BBFF /* Market_Madness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54285FBC19DE50E10091BBFF /* Market_Madness.xcdatamodel */,
+			);
+			currentVersion = 54285FBC19DE50E10091BBFF /* Market_Madness.xcdatamodel */;
+			path = Market_Madness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54285FA919DE50E10091BBFF /* Project object */;
+}
